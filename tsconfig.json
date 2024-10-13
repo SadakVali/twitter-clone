@@ -10,7 +10,7 @@
     "isolatedModules": true,
 
     /* Strictness */
-    "strict": true,
+    "strict": false,
     "noUncheckedIndexedAccess": true,
     "checkJs": true,
 
@@ -27,7 +27,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+
+    // custom options
+    "strictNullChecks": true
   },
   "include": [
     ".eslintrc.cjs",
